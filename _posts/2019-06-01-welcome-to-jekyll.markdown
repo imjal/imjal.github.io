@@ -10,6 +10,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+$$\sum_{i = 0}^{n} 2^{i} = 2^{n+1}-1 $$
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
@@ -23,3 +25,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+{% include mathjax.html %}
