@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div style="float: left">
-<img src="/assets/pic_of_me.jpg" alt="drawing" width="250" style="padding-right: 20px; padding-bottom: 20px"/>
+<img src="/assets/propic.jpg" alt="drawing" width="250" style="padding-right: 20px; padding-bottom: 20px"/>
 </div>
 
 Hi! I'm Jessica! I'm currently a rising junior at Carnegie Mellon studying Computer Science.
