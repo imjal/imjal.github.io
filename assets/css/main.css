@@ -1,9 +1,3 @@
-#bottom_head{
-    position: absolute;                  /* added */
-    bottom:0;                           /* added */
-    left:0;                           /* added */
- }
-
  .publication_elem {
     background-image: linear-gradient(#000000, #000000),
                       linear-gradient(#000000, #000000),
@@ -44,7 +38,7 @@ hr {
 }
 
 .name {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .wrapper {
