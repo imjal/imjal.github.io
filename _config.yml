@@ -17,10 +17,10 @@ title: Jessica Lee
 email:  jess.lee AT berkeley DOT edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is Jessica Lee's personal website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  imjal
 
+domain: imjal.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://imjal.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
