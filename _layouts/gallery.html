@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="grid">
+<!-- <div class="grid-sizer"></div> -->
+  {%- if site.posts.size > 0 -%}
+    {%- for post in site.posts -%}
+      {% if post.tags contains 'photography' %}
+        <a href="{{ post.url | relative_url }}">
+          <img alt="{{ post.title | escape }}" src="{{ post.thumb | escape }}" />
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+</div>
+
+<script type="text/javascript">
+  $("#grid").justifiedGallery({
+    rowHeight: 230,
+    lastRow: 'nojustify',
+    margins: 5,
+  });
+</script>

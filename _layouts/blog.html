@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<h4 class="mb-3" id='subtitle'>Blog Posts</h4>
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- for post in site.posts -%}
+    {% unless post.tags contains 'photography' %}
+        <div class ='row mb-3 mx-auto'>
+            <div class="block_elem">
+                <div class ='row'>
+                    <div class="col-md-10">
+                        <i>{{ post.date | date: date_format }}</i>
+                        <a class="post-link" href="{{ post.url | relative_url }}">
+                            <h5>{{ post.title | escape }}</h5>
+                        </a>
+                        {{ post.content | strip_html | truncatewords: 50 }}
+                    </div>
+                    {% if post.thumb != nil %}
+                    <div class = "col-md-2">
+                        <img class="img-fluid" src="{{ post.thumb | escape }}" alt="drawing" width="auto"/>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endunless %}
+{%- endfor -%}
+

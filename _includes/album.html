@@ -1,0 +1,33 @@
+
+<body>
+    <div id="{{include.albumname}}">
+        {% for image in site.static_files %}
+            {% unless image.path contains 'resized' %}
+            {% if image.path contains 'images/' and image.path contains include.albumname %}
+                <a href="{{ image.path }}">
+                    <img src="{{ image.path }}" />
+                </a>
+            {% endif %}
+            {% endunless %}
+        {% endfor %}
+    </div>
+</body>
+
+
+<script>
+    lightGallery(document.getElementById('{{include.albumname}}'), {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        animateThumb: false,
+        zoomFromOrigin: false,
+        allowMediaOverlap: true,
+        toggleThumb: false,
+    });
+    $("#{{include.albumname}}").justifiedGallery({
+        rowHeight: 250,
+        lastRow: 'nojustify',
+        margins: 5,
+        randomize: true,
+        
+      });
+</script>

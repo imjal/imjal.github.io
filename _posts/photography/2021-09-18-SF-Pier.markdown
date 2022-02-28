@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "SF Streets Pt 1"
+date: 2021-9-18 04:32:03 -0700
+tag: photography
+thumb: /images/SF-1-29/resized/sf-jan-29-16.jpg
+albumname: SF-1-29
+---
+
+
+<div class='wrapper-blog'>
+{% include album.html albumname= page.albumname %}
+</div>

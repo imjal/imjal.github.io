@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Alcatraz"
+date: 2021-9-18 04:32:03 -0700
+tag: photography
+thumb: /images/Alcatraz/resized/DSCF1400-cropped3.jpg
+albumname: Alcatraz
+---
+
+
+<div class='wrapper-blog'>
+{% include album.html albumname= page.albumname %}
+</div>
