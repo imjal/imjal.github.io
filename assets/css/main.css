@@ -120,3 +120,32 @@ hr {
   #subtitle {
     font-weight: 700;
   }
+
+  .hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    background-color: rgba(65, 64, 64, 0.543);
+    color: rgb(232, 232, 232);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s;
+    font-size: 0.875em;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 400%;
+  }
+  
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
