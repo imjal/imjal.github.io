@@ -121,12 +121,12 @@ hr {
     font-weight: 700;
   }
 
-  .hovertext {
+  a.hovertext {
     position: relative;
     border-bottom: 1px dotted black;
   }
   
-  .hovertext:before {
+  a.hovertext:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
@@ -145,7 +145,7 @@ hr {
     top: 400%;
   }
   
-  .hovertext:hover:before {
+  a.hovertext:hover:before {
     opacity: 1;
     visibility: visible;
   }
