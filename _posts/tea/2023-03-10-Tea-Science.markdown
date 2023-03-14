@@ -3,11 +3,11 @@ layout: post
 title:  "A Tea(ser) on Tea Science"
 date: 2023-03-13 04:32:03 -0700
 tags: tea science
-thumb: /images/mytea.png
+thumb: /images/Tea/l-theanine-flush.png
 excerpt_separator: <!--more-->
 ---
 
-Why do green tea masters steam tea? Why do tea farmers let the leaves sit out for a period of time before they roll it up? Why did humankind decide that this particular order of letting it be steamed, then be rolled and dried was the most advantageous for a tasty green tea? After visiting several tea farms, it made little sense to me why this practice of making tea is the standard, and why these particular steps are _the way_, other than conservation of tradition. Picking the brains of the people who grew the tea, asking questions like "why would you uproot old tea trees for new ones" and the difficulties of switching cultivars, gave me some bits of tea farmer knowledge, but didn't alleviate my confusion and itching realization that I was probably missing a mental model of why tea is tea.
+Why do green tea masters steam tea? Why do tea farmers let the leaves sit out for a period of time before they roll it up? Why did humankind decide that this particular order of letting it be steamed, then be rolled and dried was the most advantageous for a tasty green tea? <!--more--> After visiting several tea farms, it made little sense to me why this practice of making tea is the standard, and why these particular steps are _the way_, other than conservation of tradition. Picking the brains of the people who grew the tea, asking questions like "why would you uproot old tea trees for new ones" and the difficulties of switching cultivars, gave me some bits of tea farmer knowledge, but didn't alleviate my confusion and itching realization that I was probably missing a mental model of why tea is tea.
 
 There's plenty of tea content online that tells you how to brew tea and the health consequences of drinking it, but not necessarily comprehensive scientific detail on what tea is. I found amazing tea content from [Wu Mountain Tea](https://youtu.be/LqDk2swTiB8), and Dylan is such a great teacher on how to think about tea scientifically. Most of the information in my slides and in this blog post is organized around his thinking, with some references that I found. Please check out his video if you have the time, it's long but super comprehensive. I've written this article online as my take on how to explain an introduction to tea science, but of course, feel free to take your tea exploration further.
 
@@ -132,7 +132,7 @@ Processing does very little to change the amount of caffeine that's in the dried
 
 ### White Tea is not the Least Oxidized Tea
 
-Many people tout that white tea has the least amount of caffeine, which is wrong given the discussion in the previous section on caffeine. However, other arguments like it's the least oxidized tea are [irrevocably wrong](https://cdn.shopify.com/s/files/1/0579/7597/files/tea-oxidation_grande.jpg?v=1473336180). It is arguably the "least processed tea" perhaps if you're counting the number of steps that it takes to complete the tea processing. But in terms of the complex aroma formation that occurs during the withering processing, white tea is definitely not a simple tea. By oxidation, green tea is <i>definitely</i> less oxidized than white tea.
+Many people tout that white tea has the least amount of caffeine, which is wrong given the discussion in the previous section on caffeine. However, other arguments like it's the least oxidized tea are [irrevocably wrong](https://cdn.shopify.com/s/files/1/0579/7597/files/tea-oxidation_grande.jpg?v=1473336180). It is arguably the "least processed tea" perhaps if you're counting the number of steps that it takes to complete the tea processing. But in terms of the complex aroma formation that occurs during the withering processing, white tea is definitely not a simple tea. By oxidation, green tea is _definitely_ less oxidized than white tea.
 
 
 ## References
